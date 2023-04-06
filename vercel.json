@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+      {
+          "src": "*.py",
+          "use": "@shaanompatel/server"
+      }
+  ],
+  "routes": [
+      {
+          "src": "(.*)",
+          "dest": "server.py"
+      }
+  ]
+}
