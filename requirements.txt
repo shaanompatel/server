@@ -3,5 +3,4 @@ Flask-Cors
 GoogleBard
 EdgeGPT
 flask[async]
-nest_asynci
 gunicorn
