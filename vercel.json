@@ -3,7 +3,7 @@
   "builds": [
       {
           "src": "*.py",
-          "use": "@shaanompatel/server"
+          "use": "@vercel/python"
       }
   ],
   "routes": [

@@ -1,4 +1,6 @@
 Flask
 Flask-Cors
 GoogleBard
-
+EdgeGPT
+flask[async]
+nest_asyncio
