@@ -4,4 +4,4 @@ GoogleBard
 EdgeGPT
 flask[async]
 nest_asynci
-gunicorno
+gunicorn
