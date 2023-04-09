@@ -1,2 +1,4 @@
 web: gunicorn server:app \
-   --timeout 600
+   --workers 1 \
+   --timeout 600 \
+   --log-level=debug
