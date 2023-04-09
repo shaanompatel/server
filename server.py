@@ -6,6 +6,8 @@ from os import environ
 from Bard import Chatbot as bard
 from EdgeGPT import Chatbot, ConversationStyle
 import asyncio
+import nest_asyncio
+nest_asyncio.apply()
 
 token = 'VAietGsq4ZPagdjVWnHT8ts3l7ocT7BJmdhy-a8aNHBvA2t5Mp1XIhBH85QrVWJ6s71NAg.'
 token = 'VAgxd4MZoUNzZ3GolhYaQ2l1QqgmftLxdBdXLUltRO8rSYmT2kezHZnQMCKB66Sl8CyFmw.'
