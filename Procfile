@@ -1,2 +1,2 @@
 web: gunicorn server:app \
-	--timeout 600
+   --timeout 600
